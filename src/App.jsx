@@ -1,14 +1,14 @@
 import { useState } from 'react'
-import imageGenerator from './compnents/imageGenerator/imageGenerator'
 import './App.css'
-
+import ImageGenerator from './compnents/imageGenerator/imageGenerator.jsx'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <imageGenerator />
+      <ImageGenerator />
+
     </>
+
   )
 }
 
